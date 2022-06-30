@@ -24,7 +24,7 @@ console.log(oranges > apples);
 
 // tast #6
 console.log("task #6");
-const mangoes = 5;
+const mangoes = 30;
 console.log(mangoes * apples > mangoes + oranges);
 
 // tast #7
@@ -33,7 +33,9 @@ console.log(apples - mangoes < oranges / mangoes);
 
 // tast #8
 console.log("task #8");
-console.log((mangoes === apples) === oranges);
+console.log(
+  apples === oranges ? oranges === mangoes : "They are not equal to eachother"
+);
 
 // tast #9
 console.log("task #9");
